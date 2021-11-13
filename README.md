@@ -26,7 +26,7 @@ After downloading the binary file **ReGSP**, from the file location path: execut
 > The binary package **ReGSP** should be allowed to be executed as a program file. If it doesn't execute the first time, please *allow executing file as program*.
 `chmod +x /path/ReGSP`
 
-##### Dependencies 
+#### Dependencies 
 
 ReGSP needs the following programs to be installed on your computer.
 
@@ -34,5 +34,16 @@ ReGSP needs the following programs to be installed on your computer.
 2. MUMmer 3. Can be found [here.](http://mummer.sourceforge.net/).
 
 ###
+### Sample
+Sample files for chloroplast genome analysis of *Heterosigma akashiwo* are provided inside `/sample/`
+
+Five algae species are selected from the Bacillariophyceae (Diatoms), Eustigmatophyceae clade of kingdom Chromista and additional two species from Stylonematophyceae and Cyanidiophyceae clade of Plante kingdom to be used as references. They are *Haslea silbo, Seminavis robusta, Nannochloropsis limnetica, Bangiopsis subsimplex*, and *Cyanidium caldarium*.
+
+##### Files
+- `References_CDS.fasta` - amino acid CDS of the five references separated by '****'.
+- `References_nucleotide.fasta` - FASTA formated nucleotide sequence of the five references.
+- `H-akashiwo_complete.fasta` - complete chloroplast genome of *Heterosigma akashiwo*, used as a query sequence.
+
+
 
 The overall workflow and detailed explanation about input files can be found at [ReGSP home page.](https://ds.mju.ac.kr/regsp/#/intro)
